@@ -10,7 +10,7 @@ function MovieCard({sorted}) {
         }}
           >
 
-                 <img className="h-52 w-full object-cover rounded-lg text-white font-semibold gap-2" src={item.Poster} alt={item.Title}></img>
+                 <img className="h-full w-full object-cover rounded-lg text-white font-semibold gap-2" src={item.Poster} alt={item.Title}></img>
                   <span className='text-white font-semibold mt-3'> {item.Title}</span> 
                   <span className='text-white font-semibold'>Released: {item.Year}</span> 
                   <span className='text-white font-semibold'>Type:{item.Type}</span>
