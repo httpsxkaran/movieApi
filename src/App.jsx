@@ -1,5 +1,6 @@
 import React from 'react'
 import MovieApi from './componenets/MovieApi'
+import NewsApi from './componenets/NewsApi'
 
 function App() {
   return (
@@ -13,6 +14,9 @@ function App() {
       <h1 className='font-medium text-6xl text-white mb-8 mt-8'>🎥 CineHub</h1>
       <MovieApi></MovieApi>
     </div>
+    // <div>
+    //   <NewsApi></NewsApi>
+    // </div>
   )
 }
 
