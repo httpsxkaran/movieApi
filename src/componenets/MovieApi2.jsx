@@ -16,8 +16,8 @@ function MovieApi2() {
 
   async function fetch1(a){
     setLoading(true);
-    const apikey = 'dd4ad9fd'
-    let api = await fetch(`https://www.omdbapi.com/?apikey=${apikey}&s=${list}`);
+    const apikey = 'dd4ad9fd' //
+    let api = await fetch(`https://www.omdbapi.com/?apikey=${apikey}&s=${list}`); //
     let api2 = await api.json();
     setData(api2.search||[]); 
     setLoading(false);
