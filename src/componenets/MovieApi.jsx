@@ -52,10 +52,10 @@ function debounce(func, delay){
     return (
     <div className='flex flex-col justify-center items-center w-full mt-10'>
         <input type="text" placeholder='search your movie'
-         value={search} className='text-black bg-gray-300 w-72 h-14 rounded-4xl p-6 border-black border-[3px]'
+         value={search} className='text-amber bg-amber-1300 w-72 h-14 rounded-4xl p-6 border-amber-100 border-[3px]'
          onChange={handel}/>
          {console.log(sorted)}
-         {loading?<h1 className='text-white font-semibold mt-5 text-3xl'>Searching for : {list}</h1>:data.length>0?(<MovieCard sorted={sorted} loading={loading}></MovieCard>):  (<p className='text-white font-semibold mt-5 text-3xl'>No result found</p>)}
+         {loading?<h1 className='text-amber-100 font-semibold mt-5 text-3xl'>Searching for : {list}</h1>:data.length>0?(<MovieCard sorted={sorted} loading={loading}></MovieCard>):  (<p className='text-white font-semibold mt-5 text-3xl'>No result found</p>)}
     </div>
   )
 }
