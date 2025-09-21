@@ -16,7 +16,7 @@ function App() {
     //   <MovieApi></MovieApi>
     // </div>
     <div>
-      <MovieApi2></MovieApi2>
+      <MovieApi2></MovieApi2> //
     </div>
     // <div>
     //   <NewsApi></NewsApi>
