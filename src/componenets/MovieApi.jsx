@@ -27,7 +27,7 @@ function MovieApi() {
 }
 
 function handel(e){
-  setSearch(e.target.value);
+  setSearch(e.target.value); //
   if(e.target.value.trim()==="")
     setList("Avengers")
 else
