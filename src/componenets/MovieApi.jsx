@@ -31,7 +31,7 @@ function handel(e){
   if(e.target.value.trim()==="")
     setList("Avengers")//
 else
-    setList(e.target.value);
+    setList(e.target.value);//
 }
  const debaounceApply = useCallback(debounce((value)=>{console.log("Searching for : ", value )  
   fetch1(value);}, 800),[]) 
