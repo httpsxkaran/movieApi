@@ -34,7 +34,7 @@ else
     setList(e.target.value);//
 }
  const debaounceApply = useCallback(debounce((value)=>{console.log("Searching for : ", value )  
-  fetch1(value);}, 800),[]) 
+  fetch1(value);}, 800),[]) //
 useEffect(()=>{
     debaounceApply(list);
   // fetch1();
